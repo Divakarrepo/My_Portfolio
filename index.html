@@ -81,6 +81,11 @@ body::before {
 section {
   background: transparent;
 }
+@media (max-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
+}
 
 
     .hero{
@@ -173,15 +178,12 @@ section {
     .fade.show{opacity:1;transform:none}
 
     /* Responsive */
+      
     @media(max-width:900px){
       .hero{grid-template-columns:1fr}
       .hero h1{font-size:44px}
     }
-    @media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
-  }
-}
+  
 
   </style>
 </head>
@@ -218,7 +220,7 @@ section {
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn primary">View My Work</a>
-        <a href="assets/resume/Divakar Palanisamy_Resume.pdf" class="btn secondary">Download Resume</a>
+        <a href="assets/resume/Divakar Palanisamy_Resume.pdf" class="btn secondary" target="_blank">Download Resume</a>
       </div>
     </div>
     <div class="hero-visual fade">
@@ -366,9 +368,9 @@ section {
       <h2>Let’s build reliable cloud systems together</h2>
       <p>Feel free to reach out for opportunities or collaboration</p>
       <div class="contact-links">
-        <a href="#" class="btn secondary">Email</a>
-        <a href="#" class="btn secondary">LinkedIn</a>
-        <a href="#" class="btn secondary">GitHub</a>
+        <a href="mailto:pdivakar231098@email.com" class="btn secondary" target="_blank">Email</a>
+        <a href="https://www.linkedin.com/in/divakar-palanisamy-817228183" class="btn secondary" target="_blank"  rel="noopener">LinkedIn</a>
+        <a href="https://github.com/Divakarrepo" class="btn secondary" target="_blank">GitHub</a>
       </div>
       <a href="#" class="btn primary">Get In Touch</a>
     </div>
@@ -395,6 +397,3 @@ section {
 
 </body>
 </html>
-
-
-
